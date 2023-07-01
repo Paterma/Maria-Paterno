@@ -5,6 +5,10 @@
 
 }
 
+.intro {
+    margin-top: 4rem;
+}
+
 .technology-icons {
     display: flex;
     justify-content: space-evenly;
@@ -13,11 +17,14 @@
 }
 
 .emphasize-words {
-    color: #a83dff;
+    color: #a260d8;
     font-size: 24px;
     font-family: 'Courgette', cursive;
+    font-weight: bold;
 }
 
 .quote-box {
     margin-block: 4rem;
+    color: rgb(209, 188, 209);
+    backdrop-filter: blur(10px);
 }

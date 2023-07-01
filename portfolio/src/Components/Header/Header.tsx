@@ -1,4 +1,4 @@
-import { Grid, Button } from "@mui/material";
+import { Box, Button } from "@mui/material";
 import "./Header.css";
 
 type PropTypes = {
@@ -11,18 +11,30 @@ const Header = ({ setPage }: PropTypes) => {
   };
 
   return (
-    <Grid container className="header">
+    <Box className="header">
       Maria Paterno
-      <Button className="button" onClick={() => handleNavigation("about")}>
+      <Button
+        sx={{ color: "white" }}
+        className="nav-button"
+        onClick={() => handleNavigation("about")}
+      >
         About Me
       </Button>
-      <Button className="button" onClick={() => handleNavigation("projects")}>
+      <Button
+        sx={{ color: "white" }}
+        className="nav-button"
+        onClick={() => handleNavigation("projects")}
+      >
         Projects
       </Button>
-      <Button className="button" onClick={() => handleNavigation("contact")}>
+      <Button
+        sx={{ color: "whitesmoke" }}
+        className="nav-button"
+        onClick={() => handleNavigation("contact")}
+      >
         Contact Me
       </Button>
-    </Grid>
+    </Box>
   );
 };
 

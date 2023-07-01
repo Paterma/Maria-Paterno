@@ -47,9 +47,9 @@ const HomePage = () => {
       <Box className="technology-icons">
         <FaReact size={45} />
         <SiThreedotjs size={45} />
-        <SiRedux size={45} />
         <SiTypescript size={45} />
         <SiJavascript size={45} />
+        <SiRedux size={45} />
         <TiHtml5 size={45} />
         <IoLogoCss3 size={45} />
         <SiCypress size={45} />
