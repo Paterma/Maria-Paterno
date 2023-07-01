@@ -1,23 +1,33 @@
-import "./App.css";
+import { useState } from "react";
 import HomePage from "./Components/HomePage/HomePage";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
+import Projects from "./Components/Projects";
+import Contact from "./Components/Contact";
+import "./App.css";
+import Background from "./Background";
 
 function App() {
+  const [page, setPage] = useState("about");
+
   return (
     <div className="App">
-      <Header />
-      <HomePage />
-      <div className="light x1"></div>
-      <div className="light x2"></div>
-      <div className="light x3"></div>
-      <div className="light x4"></div>
-      <div className="light x5"></div>
-      <div className="light x6"></div>
-      <div className="light x7"></div>
-      <div className="light x8"></div>
-      <div className="light x9"></div>
-      <Footer />
+      <Background />
+      <div className="content">
+        <Header setPage={setPage} />
+        {page === "projects" ? (
+          <>
+            <Projects />
+          </>
+        ) : page === "contact" ? (
+          <Contact />
+        ) : (
+          <>
+            <HomePage />
+          </>
+        )}
+        <Footer />
+      </div>
     </div>
   );
 }

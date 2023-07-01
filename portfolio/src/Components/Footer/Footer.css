@@ -1,18 +1,18 @@
 footer {
-    position: sticky;
+    position: fixed;
     bottom: 0;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
+    width: 100%;
+}
+
+footer ul {
+display: flex;
+justify-content: center;
+list-style: none;
+
 }
 
 footer ul li {
-    gap: 2rem;
-    list-style: none;
-}
-
-footer ul li a:hover {
-    background-color: rgb(134, 134, 134);
+    margin-inline: 2rem;
 }
 
 footer ul li a:link {
