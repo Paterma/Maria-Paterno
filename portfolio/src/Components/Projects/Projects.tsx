@@ -15,7 +15,8 @@ const Projects = () => {
       description: `Astro is the only publicly available, open-source Design System for
       applications used in the operation, monitoring and maintenance of
       space vehicles.`,
-      technologies: "",
+      technologies:
+        "React, Angular, Vue, TypeScript, JavaScript, Stencil, Playwright",
       src: Astro,
       href: "https://www.astrouxds.com/",
     },
