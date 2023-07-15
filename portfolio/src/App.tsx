@@ -2,8 +2,8 @@ import { useState } from "react";
 import HomePage from "./Components/HomePage/HomePage";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
-import Projects from "./Components/Projects";
-import Contact from "./Components/Contact";
+import Projects from "./Components/Projects/Projects";
+import Contact from "./Components/Contact/Contact";
 import "./App.css";
 import Background from "./Background";
 

@@ -1,0 +1,33 @@
+.carousel-wrapper {
+margin-inline: auto;
+margin-top: 1rem;
+width: 60%
+}
+
+.carousel-wrapper h1 {
+    text-align: center;
+    margin-inline: auto;
+    margin-block: 2rem;
+    font-family:  'Shadows Into Light Two', cursive;;
+}
+
+.legend h2 {
+color: #a260d8;
+}
+
+.legend {
+margin-bottom: 6.75rem;
+}
+
+.legend p {
+font-size: 14px;
+}
+
+.carousel .control-dots {
+    /* margin-top: 3rem;
+    background-color: red; */
+}
+
+.carousel .carousel-status {
+    visibility: hidden;
+}

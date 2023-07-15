@@ -16,6 +16,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
+    "react-responsive-carousel": "^3.2.23",
     "react-scripts": "5.0.1",
     "react-simple-typewriter": "^5.0.1",
     "three": "^0.124.0",
@@ -48,8 +49,8 @@
     ]
   },
   "devDependencies": {
-    "@types/three": "^0.152.1",
     "@types/react": "17.0.14",
-    "@types/react-dom": "17.0.14"
+    "@types/react-dom": "17.0.14",
+    "@types/three": "^0.152.1"
   }
 }
